@@ -16,11 +16,6 @@ mongoose.connect(`mongodb+srv://${username}:${password}@trial.kupis9i.mongodb.ne
     useNewUrlParser:true,
     useUnifiedTopology:true,
 });
-// const connectionString = "mongodb+srv://mustafabharmal178:mustafa@thaalisystem.jqmnlib.mongodb.net/?retryWrites=true&w=majority";
-// const client = new MongoClient(connectionString, { 
-//     // useNewUrlParser: true, useUnifiedTopology: true 
-// });
-
 const registrationSchema = new mongoose.Schema({
     name:String,
     email:String,
